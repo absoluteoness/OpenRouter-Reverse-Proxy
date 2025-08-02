@@ -22,11 +22,11 @@ export default {
 
     // Alias map (user input → actual model)
     const aliasMap = {
-      "llama3": "meta-llama/llama-3.1-405b-instruct:free",
-      "qwen3": "qwen/qwen3-235b-a22b:free",
-      "qwen-coder": "qwen/qwen3-coder:free",
-      "deepseek": "deepseek/deepseek-r1:free",
-      "gemma": "google/gemma-3-27b-it:free"
+      "llama-3.1-405b": "meta-llama/llama-3.1-405b-instruct:free",
+      "qwen3-235b": "qwen/qwen3-235b-a22b:free",
+      "qwen3-coder": "qwen/qwen3-coder:free",
+      "deepseek-r1": "deepseek/deepseek-r1:free",
+      "gemma-3-27b": "google/gemma-3-27b-it:free"
     };
 
     if (!model || !aliasMap[model]) {
