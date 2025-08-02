@@ -69,9 +69,9 @@ export default {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
-      },
+      }
       body: JSON.stringify(payload)
     });
 
