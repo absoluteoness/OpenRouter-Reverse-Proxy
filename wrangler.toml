@@ -1,0 +1,13 @@
+name = "openai"
+main = "worker.js"
+compatibility_date = "2025-08-02"
+workers_dev = true
+
+# Optional: Environment Variables (safer way for API keys if you want later)
+# [vars]
+# OPENROUTER_API_KEY = "sk-or-..."
+
+# Optional: Routes if you want custom subdomain
+# routes = [
+#   { pattern = "openai.soumodebgaming.workers.dev", zone_id = "your-zone-id" }
+# ]
